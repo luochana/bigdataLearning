@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2140da5-fdf6-4f8c-9be4-351555edff12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hbase-demo/target/" />
     <ignored path="$PROJECT_DIR$/guli-vedio/target/" />
+    <ignored path="$PROJECT_DIR$/hdfs-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +84,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hdfs-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hdfs-demo/src/main/java/com/luochan/hdfs/HDFSClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="177" selection-start-line="177" selection-end-line="177" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="147" column="5" lean-forward="true" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,6 +136,11 @@
         <option value="$PROJECT_DIR$/hbase-demo/pom.xml" />
         <option value="$PROJECT_DIR$/guli-vedio/pom.xml" />
         <option value="$PROJECT_DIR$/guli-vedio/src/main/java/luochan/mr/ETLMapper.java" />
+        <option value="$PROJECT_DIR$/hdfs-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/hdfs-demo/src/main/java/hdfs/HDFSClient.java" />
+        <option value="$PROJECT_DIR$/hdfs-demo/src/main/java/com/luochan/HDFSClient.java" />
+        <option value="$PROJECT_DIR$/hdfs-demo/src/main/java/com/luochan/hdfs/HDFSClient.java" />
+        <option value="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java" />
       </list>
     </option>
   </component>
@@ -137,6 +179,24 @@
             <path>
               <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +237,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestAPI">
+    <configuration name="TestAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luochan.test.TestAPI" />
+      <module name="hbase-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luochan.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HDFSClient.testListStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hdfs-demo" />
       <extension name="coverage">
@@ -196,6 +269,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAPI" />
         <item itemvalue="JUnit.HDFSClient.testListStatus" />
       </list>
     </recent_temporary>
@@ -214,26 +288,32 @@
       <workItem from="1570711901598" duration="653000" />
       <workItem from="1570712592569" duration="1004000" />
       <workItem from="1570713620014" duration="2837000" />
-      <workItem from="1570717830482" duration="1514000" />
+      <workItem from="1570717830482" duration="9182000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HDFSClient_testListStatus - 2019.10.10 at 23h 00m 45s.xml">
+      <configuration name="HDFSClient.testListStatus" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6320000" />
+    <option name="totallyTimeSpent" value="13988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,13 +342,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guli-vedio/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -296,8 +369,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hbase-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hdfs-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfs-demo/src/main/java/com/luochan/hdfs/HDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.4.10/hbase-client-1.4.10.jar!/org/apache/hadoop/hbase/client/HTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="640" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="147" column="5" lean-forward="true" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
