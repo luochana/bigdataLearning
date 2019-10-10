@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="guli-vedio" />
+        <module name="hdfs-demo" />
         <module name="hbase-demo" />
       </profile>
     </annotationProcessing>
