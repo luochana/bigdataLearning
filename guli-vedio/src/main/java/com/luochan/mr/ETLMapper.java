@@ -1,7 +1,7 @@
-package luochan.mr;
+package com.luochan.mr;
 
 
-import luochan.util.ETLUtil;
+import com.luochan.util.ETLUtil;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;

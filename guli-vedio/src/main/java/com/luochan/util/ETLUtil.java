@@ -1,4 +1,4 @@
-package luochan.util;
+package com.luochan.util;
 
 public class ETLUtil {
     public static String etlStr(String oriStr){
