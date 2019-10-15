@@ -12,6 +12,7 @@
         <module>hbase-demo</module>
         <module>guli-vedio</module>
         <module>hdfs-demo</module>
+        <module>simple-weibo</module>
     </modules>
 
 

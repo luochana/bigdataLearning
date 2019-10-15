@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2140da5-fdf6-4f8c-9be4-351555edff12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Reducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-weibo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-weibo/simple-weibo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HBaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guli-vedio/src/main/java/luochan/mr/ETLDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-vedio/src/main/java/com/luochan/mr/ETLDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guli-vedio/src/main/java/luochan/mr/ETLMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-vedio/src/main/java/com/luochan/mr/ETLMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guli-vedio/src/main/java/luochan/util/ETLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-vedio/src/main/java/com/luochan/util/ETLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hbase-demo/target/" />
     <ignored path="$PROJECT_DIR$/guli-vedio/target/" />
     <ignored path="$PROJECT_DIR$/hdfs-demo/target/" />
+    <ignored path="$PROJECT_DIR$/simple-weibo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +43,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitReducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -68,10 +55,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Mapper.java">
+        <entry file="file://$PROJECT_DIR$/simple-weibo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="12" column="68" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="68" />
+            <state relative-caret-position="345">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HBaseUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2460">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4123#4131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="225">
               <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -161,6 +194,11 @@
         <option value="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/FruitDriver.java" />
         <option value="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Mapper.java" />
         <option value="$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Driver.java" />
+        <option value="$PROJECT_DIR$/simple-weibo/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HbaseUtils.java" />
+        <option value="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HBaseUtils.java" />
+        <option value="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java" />
+        <option value="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java" />
       </list>
     </option>
   </component>
@@ -192,8 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,65 +237,12 @@
               <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="luochan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="luochan" type="462c0819:PsiDirectoryNode" />
-              <item name="mr1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="luochan" type="462c0819:PsiDirectoryNode" />
-              <item name="mr2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,6 +250,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/guli-vedio/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -355,7 +344,11 @@
       <workItem from="1570768879305" duration="477000" />
       <workItem from="1570783732430" duration="608000" />
       <workItem from="1570790512847" duration="10541000" />
-      <workItem from="1570890287030" duration="286000" />
+      <workItem from="1570890287030" duration="714000" />
+      <workItem from="1570951956350" duration="669000" />
+      <workItem from="1571100526451" duration="7901000" />
+      <workItem from="1571121698930" duration="4243000" />
+      <workItem from="1571127765293" duration="7220000" />
     </task>
     <servers />
   </component>
@@ -365,7 +358,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28511000" />
+    <option name="totallyTimeSpent" value="48972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,7 +372,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18317358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18956336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,13 +410,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.4.10/hbase-client-1.4.10.jar!/org/apache/hadoop/hbase/client/Scan.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,23 +490,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java">
+    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="390">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitDriver.java">
+    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="60">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -534,10 +527,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Mapper.java">
+    <entry file="file://$PROJECT_DIR$/simple-weibo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="68" />
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HBaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -561,6 +581,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -571,12 +601,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Driver.java">
+    <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="2460">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4123#4131#0" expanded="true" />
           </folding>
         </state>
       </provider>
