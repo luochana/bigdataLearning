@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2140da5-fdf6-4f8c-9be4-351555edff12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/simple-weibo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-weibo/simple-weibo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HBaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-demo/spark-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-demo/src/main/scala/com/luochan/WordCount.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -17,6 +16,7 @@
     <ignored path="$PROJECT_DIR$/guli-vedio/target/" />
     <ignored path="$PROJECT_DIR$/hdfs-demo/target/" />
     <ignored path="$PROJECT_DIR$/simple-weibo/target/" />
+    <ignored path="$PROJECT_DIR$/spark-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,117 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-weibo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HBaseUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4123#4131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-server/1.4.10/hbase-server-1.4.10.jar!/org/apache/hadoop/hbase/mapreduce/TableMapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Reducer.java">
+        <entry file="file://$PROJECT_DIR$/spark-demo/src/main/scala/com/luochan/WordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -199,6 +93,8 @@
         <option value="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/utils/HBaseUtils.java" />
         <option value="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java" />
         <option value="$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java" />
+        <option value="$PROJECT_DIR$/spark-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spark-demo/src/main/scala/com/luochan/WordCount.scala" />
       </list>
     </option>
   </component>
@@ -207,11 +103,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hbase-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spark-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hbase-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spark-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -219,10 +115,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="490" />
-    <option name="y" value="85" />
-    <option name="width" value="1150" />
-    <option name="height" value="930" />
+    <option name="x" value="411" />
+    <option name="y" value="48" />
+    <option name="width" value="1360" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,6 +132,37 @@
             <path>
               <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdataPratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdataPratice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +188,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -349,6 +276,14 @@
       <workItem from="1571100526451" duration="7901000" />
       <workItem from="1571121698930" duration="4243000" />
       <workItem from="1571127765293" duration="7220000" />
+      <workItem from="1571148944685" duration="393000" />
+      <workItem from="1571149897778" duration="599000" />
+      <workItem from="1571579840908" duration="1373000" />
+      <workItem from="1571581392004" duration="49000" />
+      <workItem from="1571581463922" duration="534000" />
+      <workItem from="1571582019398" duration="304000" />
+      <workItem from="1571582346994" duration="672000" />
+      <workItem from="1571583653536" duration="3159000" />
     </task>
     <servers />
   </component>
@@ -358,7 +293,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48972000" />
+    <option name="totallyTimeSpent" value="56055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +307,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18956336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20394036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,6 +337,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32960597" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,6 +480,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/test/TestAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -556,7 +502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/constants/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="465">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -573,7 +519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Reducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -583,7 +529,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr2/Fruit2Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="360">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -593,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hbase-demo/src/main/java/com/luochan/mr1/FruitMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="165">
           <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -601,14 +547,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-weibo/src/main/java/com/luochan/dao/HBaseDao.java">
+    <entry file="file://$PROJECT_DIR$/spark-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4123#4131#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="552">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demo/src/main/scala/com/luochan/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -655,6 +604,17 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.11957796" />
               </list>
             </option>
           </splitter-proportions>
